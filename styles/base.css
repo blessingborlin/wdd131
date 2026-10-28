@@ -25,13 +25,31 @@ header nav ul{
     background-color: var(--accent2-color);
     color: var(--primary-color);
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+header nav ul a{
+    color:#FFFFFF;
+    text-decoration: none;
 }
 h3{
     border-bottom: 1px solid black;
     margin-bottom: 10px;
-    width: 80%;   
+    width: 89%;
+     
 }
-
+section img{
+    padding: 15px;
+    float: right;
+    border: 2px solid black;
+    background-color: pink;
+    margin-top: 1px;  
+    
+}
+section img{
+    float: left;
+}
 .box{
     display: flex;
     justify-content: space-between;
@@ -39,12 +57,13 @@ h3{
 }
 .card{
     border: 2px solid black;
-    width: 700px;
+    width:800px;
     margin: 20px;
     margin-top: 70px;
 }
-h1{
-    color: var(--accent2-color);
+
+section p{
+    padding: 10px;
 }
 
 h2,h4{
@@ -55,6 +74,7 @@ h2,h4{
 footer{
     background-color: var(--background-color);
     color: var(--primary-color);
+    padding: 20px;
 }
 footer.lastModified{
     color: var(--accent1-color);
