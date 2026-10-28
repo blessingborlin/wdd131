@@ -15,7 +15,7 @@
     box-sizing: border-box;
     text-align: center;
 }
-header{
+header.span{
     color: var(--primary-color);
     background-color: var(--background-color);
     padding: 10px;
