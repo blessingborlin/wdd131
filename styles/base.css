@@ -18,6 +18,7 @@ header{
     background-color: var(--background-color);
     color: white;
     text-align: center;
+    padding: 1rem;
 }
 
 nav{
