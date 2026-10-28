@@ -20,7 +20,7 @@ header{
     background-color: var(--background-color);
     padding: 10px;
 }
-header.nav{
+nav{
     display: flex;
     box-sizing: border-box;
     color: var(--primary-color);
