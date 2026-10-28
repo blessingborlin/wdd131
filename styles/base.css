@@ -15,7 +15,7 @@
     box-sizing: border-box;
     text-align: center;
 }
-span.course-title{
+header span.course-title{
     background-color: var(--background-color);
 }
 h1{
