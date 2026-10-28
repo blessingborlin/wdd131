@@ -1,9 +1,11 @@
 :root {
-    --primary-color: white;
-    --accent-color: yellow;
+    --primary-color: #FFFFFF;
+    --accent1-color: yellow;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
-    --background-color: blue;
+    --background-color: #000080;
+    --accent2-color:#000;
+
     
 
 }
@@ -12,30 +14,39 @@
     padding: 0;
     box-sizing: border-box;
     text-align: center;
-    }
-
-
-
+}
+header{
+    color: var(--primary-color);
+    background-color: var(--background-color);
+}
+nav{
+    display: flex;
+    box-sizing: border-box;
+    color: var(--primary-color);
+    background-color:var(--accent2-color);
+}
+h1{
+    color: var(--accent2-color);
+}
 
 h2,h4{
-    background-color: blue;
-    color:white;
+    background-color: var(--background-color);
+    color:var(--primary-color);
 }
 p{
-    color: black;
+    color: var(--accent2-color);
 }
 footer{
-    background-color: blue;
+    background-color: var(--background-color);
 }
 footer 
 { 
-    color: white;
+    color: var(--primary-color);
 }
 .lastModified{
-    color: yellow;
+    color: var(--accent1-color);
 }
 .current-year{
-    color: white;
-
+    color: var(--primary-color);
 }
 
