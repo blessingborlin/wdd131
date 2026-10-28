@@ -15,11 +15,6 @@
     box-sizing: border-box;
     text-align: center;
 }
-header.span{
-    color: var(--primary-color);
-    background-color: var(--background-color);
-    padding: 10px;
-}
 
 h1{
     color: var(--accent2-color);
