@@ -14,14 +14,16 @@
     }
 
 
-header.span{
+header{
     background-color: var(--background-color);
     color: white;
+    text-align: center;
 }
 
 nav{
     color: var(--primary-color);
     background-color: black;
+    display: flex;
 }
 h1{ background-color: black;}
 h2,h4{
