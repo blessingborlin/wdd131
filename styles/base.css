@@ -13,10 +13,10 @@
     box-sizing: border-box;
     text-align: center;
 }
-header #course-title{
+#course-title{
     background-color: var(--background-color);
     color:var(--primary-color);
-    padding: 10px;
+    
 }
 
 
