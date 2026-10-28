@@ -23,7 +23,7 @@ nav{
     display: flex;
     box-sizing: border-box;
     color: var(--primary-color);
-    background-color:var(--accent2-color);
+    
 }
 h1{
     color: var(--accent2-color);
@@ -33,20 +33,13 @@ h2,h4{
     background-color: var(--background-color);
     color:var(--primary-color);
 }
-p{
-    color: var(--accent2-color);
-}
+
 footer{
     background-color: var(--background-color);
-}
-footer 
-{ 
     color: var(--primary-color);
 }
-.lastModified{
+footer.lastModified{
     color: var(--accent1-color);
 }
-.current-year{
-    color: var(--primary-color);
-}
+
 
