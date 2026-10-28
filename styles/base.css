@@ -18,13 +18,14 @@ header{
     background-color: var(--background-color);
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 10px;
 }
 
 nav{
-    color: var(--primary-color);
-    background-color: black;
-    display: flex;
+    background-color: var(--background-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
 }
 h1{ background-color: black;}
 h2,h4{
