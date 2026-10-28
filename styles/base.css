@@ -15,7 +15,9 @@
     box-sizing: border-box;
     text-align: center;
 }
-
+span.course-title{
+    background-color: var(--background-color);
+}
 h1{
     color: var(--accent2-color);
 }
