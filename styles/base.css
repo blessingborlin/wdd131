@@ -14,19 +14,6 @@
     text-align: center;
 }
 
-header {
-    display: block;
-    background-color: #000080;
-    color: #FFFFFF;
-}
-header .nav ul{
-    
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    background-color: var(--accent2-color);
-}
 
 h1{
     color: var(--accent2-color);
