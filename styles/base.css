@@ -27,7 +27,7 @@ header nav ul{
     list-style-type: none;
 }
 h3{
-    line-height:1px solid black;
+    line:1px solid black;
 }
 h1{
     color: var(--accent2-color);
