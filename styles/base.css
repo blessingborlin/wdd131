@@ -13,11 +13,13 @@
     box-sizing: border-box;
     text-align: center;
 }
+
 header .span{
     display: block;
     background-color: #000080;
     color: #FFFFFF;
 }
+
 h1{
     color: var(--accent2-color);
 }
