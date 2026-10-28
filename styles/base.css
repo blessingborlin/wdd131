@@ -18,12 +18,13 @@
 header{
     color: var(--primary-color);
     background-color: var(--background-color);
+    padding: 10px;
 }
-nav{
+header.nav{
     display: flex;
     box-sizing: border-box;
     color: var(--primary-color);
-    
+    background-color: var(--accent2-color);   
 }
 h1{
     color: var(--accent2-color);
