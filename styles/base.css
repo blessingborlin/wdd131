@@ -20,12 +20,7 @@ header.span{
     background-color: var(--background-color);
     padding: 10px;
 }
-nav{
-    display: flex;
-    box-sizing: border-box;
-    color: var(--primary-color);
-    background-color: var(--accent2-color);   
-}
+
 h1{
     color: var(--accent2-color);
 }
