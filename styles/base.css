@@ -18,6 +18,7 @@ header{
 }
 main{
     padding: 0;
+    width: 100%;
 }
 #course-title{
     background-color: var(--background-color);
@@ -26,6 +27,18 @@ main{
     display: block;  
     height: 100px;
     padding-top:40px;
+}
+.box{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box nav{
+    text-align: center;
+    padding: 30px;
+    display:flex;
+    
 }
 header nav ul{
     background-color: var(--accent2-color);
