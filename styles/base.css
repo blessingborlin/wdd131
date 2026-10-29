@@ -35,6 +35,12 @@ header nav ul{
     justify-content: space-between;
     padding: 10px;
 }
+
+nav a:hover {
+	text-decoration: overline;
+}
+
+
 header nav ul a{
     color: var(--primary-color);
     text-decoration: none;
