@@ -1,8 +1,8 @@
 :root {
     --primary-color: #FFFFFF;
     --accent1-color: yellow;
-    --heading-font: Sirin Stencil,"Public Sans", lato;
-    --body-font: lato, Helvetica, Sirin Stencil;
+    --heading-font: "Times New Roman", "Georgia", serif;;
+    --body-font: Arial, Helvetica, sans-serif;
     --background-color:  #006EB6;
     --accent2-color:#000;  
 
