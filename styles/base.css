@@ -61,7 +61,7 @@ header nav ul a{
 h3{
     border-bottom: 1px solid black;
     margin-bottom: 10px;
-    width: 89%;
+    width:60%;
      
 }
 section img{
@@ -71,9 +71,6 @@ section img{
     background-color: #ffc0cb;
     margin-top: 1px;  
     
-}
-section img{
-    float: left;
 }
 .box{
     display: flex;
