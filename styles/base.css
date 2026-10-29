@@ -113,8 +113,8 @@ footer{
     color: var(--primary-color);
     padding: 20px;
 }
-footer.lastModified{
-    color: var(--accent1-color);
+.lastModified{
+    color: yellow;
 }
 
 
