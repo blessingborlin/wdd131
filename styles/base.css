@@ -99,6 +99,19 @@ section img{
     display: block;
     padding-left:0;
 }
+a::before {
+  content: "• ";
+  color: black;
+}
+a {
+  display: block;
+  margin: 0;
+  padding: 2px 20px;
+  line-height: 1.2;
+  position:right;
+  margin-right: 199px;
+  
+}
 section p{
     padding: 10px;
 }
