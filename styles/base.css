@@ -1,4 +1,4 @@
-:root {
+root {
     --primary-color: #FFFFFF;
     --accent1-color: yellow;
     --heading-font: "Times New Roman", "Georgia", serif;;
@@ -129,5 +129,3 @@ footer{
     
     color: yellow;
 }
-
-
