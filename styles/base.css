@@ -21,8 +21,8 @@ main{
     width: 100%;
 }
 #course-title{
-    background-color: var(--background-color);
-    color:var(--primary-color);
+    background-color:  #006EB6;
+    color:#FFFFFF;
     width: 100%;
     display: block;  
     height: 100px;
@@ -30,7 +30,6 @@ main{
 }
 .box{
     gap: 20px;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
     display: flex;
@@ -44,23 +43,25 @@ main{
     
 }
 header nav ul{
-    background-color: var(--accent2-color);
-    color: var(--primary-color);
+    background-color: black;
+    color: #ffffff;
+    display: grid;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     padding: 10px;
 }
-
+figure {
+    float: left;
+}
+figcaption{
+    padding: 0;
+    color: green;
+}
 nav a:hover {
 	text-decoration: overline;
 }
-h1 {
-  text-align: center;
-  white-space: nowrap;
-  width: 30%;
-  padding: 10px;
-}
+
 
 header nav ul a{
     color: var(--primary-color);
@@ -75,10 +76,7 @@ h3{
 section img{
     padding: 15px;
     float: right;
-    border: 2px solid black;
-    background-color: #ffc0cb;
-    margin-top: 1px;  
-    
+    margin-top: 1px;     
 }
 .card{
     border: 2px solid black;
@@ -116,13 +114,13 @@ section p{
 }
 
 h2,h4{
-    background-color: var(--background-color);
-    color:var(--primary-color);
+    background-color:  #006EB6;
+    color:#FFFFFF;
 }
 
 footer{
-    background-color: var(--background-color);
-    color: var(--primary-color);
+    background-color:  #006EB6;
+    color:white ;
     padding: 20px;
 }
 #lastModified{
