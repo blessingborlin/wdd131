@@ -1,7 +1,8 @@
 root{
 	--primary-color: #FFFFFF;
+	--secoundary-color:#000;
+   --accent-color:orange;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -12,8 +13,8 @@ body {
 	font-family: "Sansita", sans-serif;
 }
 header {
-	background-color: black;
-    color:white;
+	background-color: var(--secoundary-color);
+    color:var(--primary-color);
 	display: grid;
 	grid-gap: 1rem;
 	padding: 20px;
@@ -39,7 +40,7 @@ nav ul {
 }
 nav a {
 	display: block;
-	color: #fff;
+	color:var(--primary-color);
 	text-align: center;
 	padding: 1rem;
 	text-decoration: none;
@@ -64,10 +65,10 @@ nav a {
 nav a:hover {
 	text-decoration: underline double;
 	background-color: #eee;
-	color: #000;
+	color: var(--secoundary-color);
 }
 .design{
-	color: orange;
+	color: var(--accent-color);
 }
 .photos figure:nth-child(n+4){
     display: none;
@@ -93,7 +94,7 @@ nav a:hover {
 	}
 }
 footer{
-    background-color: #000;
-    color: #fff;
+    background-color: var(--secoundary-color);
+    color: var(--primary-color);
     padding: 20px;
 }
