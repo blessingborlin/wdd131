@@ -41,6 +41,15 @@ nav a {
 	text-decoration: none;
 	font-size: larger;
 }
+
+#menu-button {
+    display: none;
+}
+
+#navigation {
+    display: flex;
+    gap: 20px;
+}
 nav a:hover {
 	text-decoration: underline double;
 	background-color: #eee;
