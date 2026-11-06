@@ -26,6 +26,7 @@ main {
 }
 h1 {
 	font-size: 2rem;
+    padding: 20px;
 }
 nav ul {
 	list-style: none;
@@ -48,12 +49,15 @@ nav a:hover {
 .design{
 	color: orange;
 }
-.photos{
-    display: grid;
-    grid-template-columns:repeat(1, 1fr);
-    gap: 10px;
+.photos figure:nth-child(n+4){
+    display: none;
+    padding: 20px;
 }
-
+.shape{
+    height: 60px;
+    object-fit: cover;
+    object-position: top;
+}
 @media (min-width: 740px) {
 	header {
 		display: flex;
