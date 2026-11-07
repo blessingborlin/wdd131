@@ -5,15 +5,6 @@
 body {
 	font-family: "Sansita", sans-serif;
 }
-header {
-	background-color: black;
-    color:white;
-	grid-gap: 1rem;
-	padding: 20px;
-	display:grid;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	box-shadow: 0 0 30px #333;
-}
 header,
 main{
 	margin: 0 auto;
@@ -24,18 +15,6 @@ main {
 h1 {
 	font-size: 2rem;
     padding: 20px;
-}
-nav ul {
-	list-style: none;
-	display: flex;
-}
-nav a {
-	display: block;
-	color: #ffffff;
-	text-align: center;
-	padding: 1rem;
-	text-decoration: none;
-	font-size: larger;
 }
 nav a:hover {
 	text-decoration: underline double;
@@ -53,6 +32,13 @@ nav a:hover {
 }
 @media (min-width: 740px) {
 	header {
+		background-color: black;
+        color:white;
+	    grid-gap: 1rem;
+	    padding: 20px;
+	    display:grid;
+	    border: 1px solid rgba(0, 0, 0, 0.1);
+	    box-shadow: 0 0 30px #333;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -60,8 +46,17 @@ nav a:hover {
 	nav ul {
 		justify-content: flex-end;
 		flex-direction: row;
-	}
+		list-style: none;
+	    display: flex;
+
+	}	
 	nav a {
+		display: block;
+	    color: #ffffff;
+	    text-align: center;
+	    padding: 1rem;
+	    text-decoration: none;
+	    font-size: larger;
 		flex: 1 1 100%;
 	}
 }
