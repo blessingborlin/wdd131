@@ -10,6 +10,7 @@
 }
 header{
     padding: 0;
+    display: grid;
 }
 .name{
     text-align: center;
@@ -26,6 +27,7 @@ main{
     display: block;  
     height: 100px;
     padding-top:40px;
+
 }
 header nav ul{
     background-color: black;
