@@ -28,7 +28,6 @@ h1 {
 nav ul {
 	list-style: none;
 	display: flex;
-	flex-direction: column;
 }
 nav a {
 	display: block;
