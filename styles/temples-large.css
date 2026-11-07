@@ -36,7 +36,6 @@ nav a:hover {
         color:white;
 	    grid-gap: 1rem;
 	    padding: 20px;
-	    display:grid;
 	    border: 1px solid rgba(0, 0, 0, 0.1);
 	    box-shadow: 0 0 30px #333;
 		display: flex;
