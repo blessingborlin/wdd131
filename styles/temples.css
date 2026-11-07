@@ -36,7 +36,7 @@ nav a:hover {
 	color: #343434;
 }
 .design{
-	color: orange;
+	color: red;
 }
 .photos figure:nth-child(n+4){
     display: none;
