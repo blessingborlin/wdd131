@@ -20,11 +20,9 @@ h1 {
     #menu-button {
         display: block;
     }
-
     #navigation {
         display: none
     }
-
     #navigation.open {
         display: flex;
         flex-direction: column;
