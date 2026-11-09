@@ -21,9 +21,6 @@ nav a:hover {
 	background-color: #eee;
 	color: #343434;
 }
-.design{
-	color: purple;
-}
 .photos{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
