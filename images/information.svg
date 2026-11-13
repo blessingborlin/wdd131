@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="415" height="337" viewBox="0 0 415 337">
+  <rect width="415" height="337" fill="#ffffff"/>
+  <g fill="#111111" font-family="Arial, Helvetica, sans-serif">
+    <text x="207.5" y="37" font-size="29" font-weight="700" text-anchor="middle">Data</text>
+
+    <g font-size="16">
+      <text x="172" y="100" text-anchor="end" font-weight="700">Area:</text>
+      <text x="183" y="100">587,041 sq km</text>
+
+      <text x="172" y="132" text-anchor="end" font-weight="700">Population:</text>
+      <text x="183" y="132">27,691,018</text>
+
+      <text x="172" y="164" text-anchor="end" font-weight="700">Capital:</text>
+      <text x="183" y="164">Antananarivo</text>
+
+      <text x="172" y="196" text-anchor="end" font-weight="700">Languages:</text>
+      <text x="183" y="196">Malagasy, French</text>
+
+      <text x="172" y="228" text-anchor="end" font-weight="700">Currency:</text>
+      <text x="183" y="228">Malagasy Ariary</text>
+
+      <text x="172" y="260" text-anchor="end" font-weight="700">Time Zone:</text>
+      <text x="183" y="260">UTC+3</text>
+
+      <text x="172" y="292" text-anchor="end" font-weight="700">Calling Code:</text>
+      <text x="183" y="292">+261</text>
+
+      <text x="172" y="324" text-anchor="end" font-weight="700">Internet TLD:</text>
+      <text x="183" y="324">.mg</text>
+    </g>
+  </g>
+</svg>

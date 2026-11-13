@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Partly cloudy with rain</title>
+  <desc id="desc">A golden sun behind a beige cloud, with short dark rays and small raindrops.</desc>
+
+  <!-- Sun -->
+  <g stroke="#211914" stroke-width="3.2" stroke-linecap="round" fill="none">
+    <path d="M48 5v8 M30 10l4 7 M17 23l7 4 M11 42h8 M78 23l-7 4 M85 42h-8"/>
+  </g>
+  <circle cx="49" cy="40" r="19" fill="#FFC23D" stroke="#211914" stroke-width="3.2"/>
+
+  <!-- Cloud -->
+  <path d="M27 69
+           C18 69 13 63 13 55
+           C13 47 19 41 27 40
+           C30 31 38 26 47 27
+           C57 27 65 34 67 44
+           C69 43 71 43 73 43
+           C82 43 88 50 88 58
+           C88 66 82 71 74 71
+           L27 71Z"
+        fill="#D8C3A0" stroke="#211914" stroke-width="3.2"
+        stroke-linejoin="round"/>
+
+  <!-- Raindrops -->
+  <g fill="#211914">
+    <circle cx="39" cy="78" r="1.8"/>
+    <circle cx="48" cy="80" r="1.8"/>
+    <circle cx="57" cy="80" r="1.8"/>
+    <circle cx="66" cy="78" r="1.8"/>
+    <circle cx="44" cy="86" r="1.8"/>
+    <circle cx="53" cy="87" r="1.8"/>
+    <circle cx="62" cy="86" r="1.8"/>
+  </g>
+</svg>
