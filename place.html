@@ -7,7 +7,7 @@
     <meta name="author" content="Borlin Obianuru Blessing">
     <title> My Favourite Country</title>
     <link rel="stylesheet" href="styles/">
-    <link rel="stylesheet" href="styles/place-small.css">
+    <link rel="stylesheet" href="styles/place-large.css">
     <script src="scripts/place.js" defer></script>
 </head>
 <body>
@@ -15,27 +15,27 @@
         <div class="korea">  
             <h1> South Korea</h1>
             <picture class="photo">
-                <source srcset="images/hero.webp" type="images/webp">
+              <source media="(max-width: 400px)" srcset="images/korea-phone.webp" >
             
-                <img src="images/hero.webp" alt=" Korea" width="400">
+                <img src="images/korea-laptop.webp" alt="South Korea" width="400">
             </picture>               
         </div>   
     </header>
-    <main>
-        <h2> Data </h2>
+    <main >
+        <h2 class="data"> Data </h2>
         <div class="sky">
-           <p><strong>Area:</strong>100,401 sq km </p>
-           <p><strong>Population :</strong> 51,667, 000</p>
-           <p><strong>Capital:</strong> Seoul </p>
-           <p><strong> Language:</strong> Korean</p>
-           <p><strong> Currency:</strong> South Korea Won(KRW)</p>
-           <p><strong> Time Zone:</strong> UTC+9</p>
-           <p><strong> Calling Code:</strong> +82</p>
-           <p><strong> Internet TLD:</strong> .kr</p>
+            <p><strong>Area:</strong>100,401 sq km </p>
+            <p><strong>Population :</strong> 51,667, 000</p>
+            <p><strong>Capital:</strong> Seoul </p>
+            <p><strong> Language:</strong> Korean</p>
+            <p><strong> Currency:</strong> South Korea Won(KRW)</p>
+            <p><strong> Time Zone:</strong> UTC+9</p>
+            <p><strong> Calling Code:</strong> +82</p>
+            <p><strong> Internet TLD:</strong> .kr</p>
         </div>
         
-        <h3> Weather</h3>
-        <img src="images/weather1.svg" alt="place large image">
+        <h3 class="hope"> Weather</h3>
+        <img src="images/weather.svg" alt="place large image">
         <div class="info">
            <p><strong>Temperature:</strong>  12°C</p>
            <p><strong>Conditions:</strong>   Cloudy</p>
