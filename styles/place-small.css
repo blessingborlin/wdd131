@@ -9,26 +9,33 @@ h1{
     background-color:#0000ff;
     padding: 10px;
 }
+h2{
+    padding: 20px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
 h3{
     padding: 20px;
+    font-weight: bolder;
+    font-size: xx-large;
 }
-.weather{
+.sky{
     padding: 10px;
     justify-content: space-between;
 }
-.data{
-    padding: 10px;
-    justify-content: space-between;
-}
-.data p{
+.sky p{
     margin-bottom: 20px;
 }
-.weather p
+.info{
+    padding: 10px;
+    justify-content: space-between;
+}
+.info p
 {
     margin-bottom: 20px;
 }
 .korea h1{
-    background-color: red;
+    background-color: #ff0000;
     padding: 20px;
     margin: 0;
     border-bottom: 20px solid purple;
@@ -41,9 +48,9 @@ h3{
     border-bottom: 10px solid red;
 }
 
-
 footer{
-    background-color: #0000ff;
+    background-color:#ff0000 ;
     color: #fff;
     padding: 20px;
 }
+
