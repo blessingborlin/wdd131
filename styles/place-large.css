@@ -7,48 +7,66 @@
 h1{
     color: #ffff;
     background-color:#0000ff;
-    padding: 10px;
+    padding: 20px;
+    text-align: center;
 }
 h2{
+    width: 300px;
     padding: 20px;
     font-weight: bolder;
     font-size: xx-large;
 }
+
+.data ,.hope {
+    background-color: #800080cc;
+    color: white;
+    padding: 5px;
+}
 .data{
-    background-color: green;
-    width: 300px;
+    margin-left: -20px;
+    width: 200px;
+    text-align: left;
 }
 .hope{
-    background-color: green;
-    width: 300px;
-    position: right;
+    margin-left: -30px;
+    width: 250px;
+    text-align: left;
 }
 h3{
     padding: 20px;
     font-weight: bolder;
     font-size: xx-large;
 }
+.hope::after{
+    content: "🌦️";
+    margin-left: 3px;
+    font-size: 25px;
+}
+
 .sky{
-    background-color: orange;
-    width:320px;
-    color: black;
+    position: absolute;
+    top: 110px;
+    background-color: #FFFFFF99;
+    width: 220px;
     padding: 10px;
-    justify-content: space-between;
+    margin: 40px;
+}
+.rent{
+    position: absolute;
+    top: 200px;
+    right: 30px;
+    background-color: #FFFFFF99;
+    width: 260px;
+    padding: 10px; 
 }
 .sky p{
-    margin-bottom: 20px;
+    margin-top: 15px;
+    text-align: center;
 }
-.info{
-    position: right;
-    background-color: orange;
-    width:320px;
-    color: black;
-    padding: 10px;
-    justify-content: space-between;
-}
-.info p
-{
-    margin-bottom: 20px;
+.rent p{
+    margin-top: 15px;
+    text-align: center;
+
 }
 .korea h1{
     background-color: #ff0000;
@@ -63,10 +81,10 @@ h3{
     display: block;
     border-bottom: 10px solid red;
 }
-
 footer{
     background-color:#ff0000 ;
     color: #fff;
-    padding: 20px;
+    padding: 15px;
+    text-align: center;
 }
 
