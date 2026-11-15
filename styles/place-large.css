@@ -93,15 +93,3 @@ footer{
     padding: 15px;
     text-align: center;
 }
-.mobile{
-    display: none;
-}
-@media screen and (min-width: 400px) {
-    .desktop{
-        display: block;
-    }
-
-    .mobile{
-        display: none;
-    }
-}
