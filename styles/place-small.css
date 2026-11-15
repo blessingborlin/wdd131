@@ -24,19 +24,11 @@ h3{
     font-weight: bolder;
     font-size: xx-large;
 }
-.sky{
+.sky, .info{
     padding: 10px;
     justify-content: space-between;
 }
-.sky p{
-    margin-bottom: 20px;
-}
-.info{
-    padding: 10px;
-    justify-content: space-between;
-}
-.info p
-{
+.sky p, .info p{
     margin-bottom: 20px;
 }
 .korea h1{
