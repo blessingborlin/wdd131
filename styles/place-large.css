@@ -1,9 +1,3 @@
-:root{
-    --background-color:#800080cc;
-    --main-color:#ffff;
-    --background-color2: #FFFFFF99;
-    --color:  #ff0000;
-}
 h1{
     color: var(--main-color);
     padding: 10px;
