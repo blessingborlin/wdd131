@@ -1,11 +1,3 @@
-h1{
-    color: var(--main-color);
-    padding: 10px;
-}
-h2{
-    width: 300px;
-
-}
 .data{
     background-color: var(--background-color);
     color: var(--main-color);
