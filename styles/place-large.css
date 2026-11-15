@@ -1,5 +1,5 @@
 :root{
-    --background-color:#800080cc ;
+    --background-color:#800080cc;
     --main-color:#ffff;
     --background-color2: #FFFFFF99;
     --color:  #ff0000;
@@ -20,17 +20,18 @@ h2{
     font-weight: bolder;
     font-size: xx-large;
 }
-.data ,.hope {
+.data{
     background-color: var(--background-color);
     color: var(--main-color);
     padding: 5px;
-}
-.data{
     margin-left: -20px;
     width: 200px;
     text-align: left;
 }
 .hope{
+    background-color: var(--background-color);
+    color: var(--main-color);
+    padding: 5px;
     margin-left: -30px;
     width: 250px;
     text-align: left;
@@ -64,14 +65,9 @@ h3{
     width: 260px;
     padding: 10px; 
 }
-.sky p{
+.sky p, .rent p{
     margin-top: 15px;
     text-align: center;
-}
-.rent p{
-    margin-top: 15px;
-    text-align: center;
-
 }
 .korea h1{
     background-color: var(--color);
