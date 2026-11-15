@@ -1,12 +1,17 @@
-*{
+:root{
+
+    --background-color:#800080cc ;
+    --main-color:#ffff;
+    --background-color2: #FFFFFF99;
+    --color:  #ff0000;
+}*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-align: center;   
 }
 h1{
-    color: #ffff;
-    background-color:#0000ff;
+    color: var(--main-color);
     padding: 10px;
 }
 h2{
@@ -35,7 +40,7 @@ h3{
     margin-bottom: 20px;
 }
 .korea h1{
-    background-color: #ff0000;
+    background-color: var(--color);
     padding: 20px;
     margin: 0;
     border-bottom: 20px solid purple;
@@ -48,7 +53,7 @@ h3{
     border-bottom: 10px solid red;
 }
 footer{
-    background-color:#ff0000 ;
-    color: #fff;
+    background-color:var(--color);
+    color: var(--main-color);
     padding: 20px;
 }

@@ -1,14 +1,19 @@
+:root{
+
+    --background-color:#800080cc ;
+    --main-color:#ffff;
+    --background-color2: #FFFFFF99;
+    --color:  #ff0000;
+}
+h1{
+    color: var(--main-color);
+    padding: 10px;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-align: center;   
-}
-h1{
-    color: #ffff;
-    background-color:#0000ff;
-    padding: 20px;
-    text-align: center;
 }
 h2{
     width: 300px;
@@ -17,8 +22,8 @@ h2{
     font-size: xx-large;
 }
 .data ,.hope {
-    background-color: #800080cc;
-    color: white;
+    background-color: var(--background-color);
+    color: var(--main-color);
     padding: 5px;
 }
 .data{
@@ -44,7 +49,7 @@ h3{
 .sky{
     position: absolute;
     top: 100px;
-    background-color: #FFFFFF99;
+    background-color: var(--background-color2);
     width: 220px;
     padding: 10px;
     margin: 20px;
@@ -56,7 +61,7 @@ h3{
     position: absolute;
     top: 270px;
     right: 10px;
-    background-color: #FFFFFF99;
+    background-color: var(--background-color2);
     width: 260px;
     padding: 10px; 
 }
@@ -70,7 +75,7 @@ h3{
 
 }
 .korea h1{
-    background-color: #ff0000;
+    background-color: var(--color);
     padding: 20px;
     margin: 0;
     border-bottom: 20px solid purple;
@@ -83,8 +88,8 @@ h3{
     border-bottom: 10px solid red;
 }
 footer{
-    background-color:#ff0000 ;
-    color: #fff;
+    background-color: var(--color);
+    color: var(--main-color);
     padding: 15px;
     text-align: center;
 }
