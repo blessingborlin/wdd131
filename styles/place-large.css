@@ -92,3 +92,15 @@ footer{
     padding: 15px;
     text-align: center;
 }
+.desktop{
+    display: none;
+}
+@media screen and (min-width: 400px) {
+    .phone{
+        display: block;
+    }
+
+    .desktop{
+        display: none;
+    }
+}
