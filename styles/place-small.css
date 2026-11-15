@@ -3,7 +3,8 @@
     --main-color:#ffff;
     --background-color2: #FFFFFF99;
     --color:  #ff0000;
-}*{
+}
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
