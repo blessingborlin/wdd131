@@ -1,3 +1,8 @@
+:root{
+    --background-color: purple;
+	--main-color: #eee ;
+	--color:#000;
+}
 *{
     box-sizing: border-box;
     text-align: center;
@@ -30,11 +35,11 @@ h1 {
 }
 nav a:hover {
 	text-decoration: underline double;
-	background-color: #eee;
+	background-color: var(--main-color);
 	color: #343434;
 }
 .design{
-	color: purple;
+	color:var(--background-color);
 }
 .photos figure:nth-child(n+4){
     display: none;
@@ -47,8 +52,8 @@ nav a:hover {
 }
 @media (min-width: 740px) {
 	header {
-		background-color: black;
-        color:white;
+		background-color: var(--color);
+        color:var(--main-color);
 	    grid-gap: 1rem;
 	    padding: 20px;
 	    border: 1px solid rgba(0, 0, 0, 0.1);
@@ -65,7 +70,7 @@ nav a:hover {
 	}
 	nav a {
 		display: block;
-	    color:#ffffff;
+	    color: var(--main-color);
 	    text-align: center;
 	    padding: 1rem;
 	    text-decoration: none;
@@ -74,7 +79,7 @@ nav a:hover {
 	}
 }
 footer{
-    background-color:#000 ;
+    background-color: var(--color);
     color:#f5f5f5 ;
     padding: 20px;
 }
