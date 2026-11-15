@@ -2,17 +2,9 @@ h1{
     color: var(--main-color);
     padding: 10px;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-align: center;   
-}
 h2{
     width: 300px;
-    padding: 20px;
-    font-weight: bolder;
-    font-size: xx-large;
+
 }
 .data{
     background-color: var(--background-color);
@@ -29,11 +21,6 @@ h2{
     margin-left: -30px;
     width: 250px;
     text-align: left;
-}
-h3{
-    padding: 20px;
-    font-weight: bolder;
-    font-size: xx-large;
 }
 .hope::after{
     content: "⛅";
@@ -62,35 +49,4 @@ h3{
 .sky p, .rent p{
     margin-top: 15px;
     text-align: center;
-}
-.korea h1{
-    background-color: var(--color);
-    padding: 20px;
-    margin: 0;
-    border-bottom: 20px solid purple;
-}
-.korea img{
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    display: block;
-    border-bottom: 10px solid red;
-}
-footer{
-    background-color: var(--color);
-    color: var(--main-color);
-    padding: 15px;
-    text-align: center;
-}
-.desktop{
-    display: none;
-}
-@media screen and (min-width: 400px) {
-    .phone{
-        display: block;
-    }
-
-    .desktop{
-        display: none;
-    }
 }

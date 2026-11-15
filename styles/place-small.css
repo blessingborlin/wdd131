@@ -48,6 +48,7 @@ footer{
     background-color:var(--color);
     color: var(--main-color);
     padding: 20px;
+    text-align: center;
 }
 .desktop{
     display: none;
