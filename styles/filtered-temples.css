@@ -1,7 +1,7 @@
 :root{
-    --background-color: purple;
+    --background-color: white;
 	--main-color: #eee ;
-	--color:#000;
+	--color: #3b1463;
 }
 *{
     box-sizing: border-box;
@@ -55,7 +55,7 @@ nav a:hover {
 		background-color: var(--color);
         color:var(--main-color);
 	    grid-gap: 1rem;
-	    padding: 20px;
+	    padding: 15 20px;
 	    border: 1px solid rgba(0, 0, 0, 0.1);
 	    box-shadow: 0 0 30px #333;
 		display: flex;
@@ -82,4 +82,57 @@ footer{
     background-color: var(--color);
     color:#f5f5f5 ;
     padding: 20px;
+}
+.res-grid img {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+main h2 {
+    text-align: center;
+    margin: 35px;
+}
+.res-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.res-grid section {
+    background-color: #edf0ed;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.res-grid img {
+    width: 100%;
+    max-width: 250px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 0 10px gray;
+}
+
+@media (max-width: 700px) {
+    .res-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .res-grid {
+        grid-template-columns: fr;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
 }
