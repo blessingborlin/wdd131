@@ -55,7 +55,7 @@ nav a:hover {
 		background-color: var(--color);
         color:var(--main-color);
 	    grid-gap: 1rem;
-	    padding: 15 20px;
+	    padding: 15px 20px;
 	    border: 1px solid rgba(0, 0, 0, 0.1);
 	    box-shadow: 0 0 30px #333;
 		display: flex;
@@ -117,16 +117,9 @@ main h2 {
     object-fit: cover;
     box-shadow: 0 0 10px gray;
 }
-
-@media (max-width: 700px) {
-    .res-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
 @media (max-width: 480px) {
     .res-grid {
-        grid-template-columns: fr;
+        grid-template-columns:repeat(2, 1fr);
     }
 
     header {
