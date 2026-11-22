@@ -95,7 +95,12 @@ const temples = [
   imageUrl: "https://newsroom.churchofjesuschrist.org/media/640x360/Rexburg-Idaho-Temple3.jpg"
 },
 ];
+createTempleCard(temples);
 
+function filterOld() {
+    const oldTemples = temples.filter(temple => temple.year < 1900);
+    displayTemples(oldTemples);
+}
 
 function createTempleCard() {
     temples.forEach(temple => {
