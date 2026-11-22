@@ -101,6 +101,10 @@ function filterOld() {
     const oldTemples = temples.filter(temple => temple.year < 1900);
     displayTemples(oldTemples);
 }
+document.querySelector("#old").addEventListener("click", (event) => {
+    event.preventDefault();
+    filterOld();
+});
 
 function createTempleCard() {
     temples.forEach(temple => {
