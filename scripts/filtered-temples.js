@@ -96,7 +96,6 @@ const temples = [
 },
 ];
 
-createTempleCard();
 
 function createTempleCard() {
     temples.forEach(temple => {
@@ -125,6 +124,10 @@ function createTempleCard() {
         document.querySelector(".res-grid").appendChild(card);
     });
 }
+
+
+
+
 
 
 
