@@ -98,15 +98,28 @@ const temples = [
 createTempleCard(temples);
 
 function filterOld() {
-    const oldTemples = temples.filter(temple => temple.year < 1900);
-    displayTemples(oldTemples);
+  const filteredTemples = temples.filter(temple => temple.year < 1900);
+  displayTemples(filteredTemples);
 }
 document.querySelector("#old").addEventListener("click", (event) => {
     event.preventDefault();
     filterOld();
 });
 
-function createTempleCard() {
+
+
+function filterLarge() {
+    const largeTemples = temples.filter(temple => temple.area > 90000);
+    displayTemples(largeTemples);
+}
+document.querySelector("#large").addEventListener("click", (event) => {
+    event.preventDefault();
+    filterLarge();
+});
+
+
+
+function createTempleCard(temples) {
     temples.forEach(temple => {
         let card = document.createElement("section");
         let name = document.createElement("h3");
