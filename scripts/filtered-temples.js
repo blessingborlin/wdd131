@@ -100,7 +100,7 @@ createTempleCard(temples);
 const oldbuildingLink = document.querySelector("#oldbuilding");
 
 oldbuildingLink.addEventListener("click", () => {
-  createTempleCard(temples.filter(temples => ! temples.dedicated.includes("< 1900")));
+  createTempleCard(temples.filter(temples => ! temples.dedicated.includes(" 5900")));
 });
 
 
