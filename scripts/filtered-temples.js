@@ -97,7 +97,7 @@ const temples = [
 ];
 createTempleCard(temples);
 
-function filterOld() {
+function filterOld(temples) {
   const filteredTemples = temples.filter(temple => temple.year < 1900);
   displayTemples(filteredTemples);
 }
@@ -108,7 +108,7 @@ document.querySelector("#old").addEventListener("click", (event) => {
 
 
 
-function filterLarge() {
+function filterLarge(temples) {
     const largeTemples = temples.filter(temple => temple.area > 90000);
     displayTemples(largeTemples);
 }
