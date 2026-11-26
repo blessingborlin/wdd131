@@ -9,14 +9,15 @@
 }
 header{
     background-color: #008000;
+    padding: 1px;        
+}
+header div{
+    color: #ffffff;
     padding: 1px;
-    color: white;    
 }
 h2{
     color: green;
     size:larger;
-    
-
 }
 p{
     color:#000000;
@@ -29,18 +30,9 @@ h1{
     background-color: #90ee90;
     width: 25%;
 }
-
-
-
-
-
-
-
-
-
-
 footer{
     background-color: #008000;
     padding: 1px;
+    
 }
 
