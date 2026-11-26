@@ -1,0 +1,46 @@
+.root {
+    --heading-font: "Times New Roman", "Georgia", serif;;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 3px;
+    padding: 3px;
+    box-sizing: border-box;  
+}
+header{
+    background-color: #008000;
+    padding: 1px;
+    color: white;    
+}
+h2{
+    color: green;
+    size:larger;
+    
+
+}
+p{
+    color:#000000;
+}
+h1{
+    position: left;
+
+}
+.domain{
+    background-color: #90ee90;
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #008000;
+    padding: 1px;
+}
+
