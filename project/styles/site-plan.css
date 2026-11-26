@@ -7,14 +7,16 @@
     padding: 3px;
     box-sizing: border-box;  
 }
-header{
-    background-color: #008000;
-    padding: 1px;        
-}
 header div{
     color: #ffffff;
     padding: 1px;
 }
+@media (min-width: 740px) {
+    header{ 
+        padding: 0;
+    background-color: #008000;
+    }
+}   
 h2{
     color: green;
 }
