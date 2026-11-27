@@ -15,7 +15,7 @@ header div{
 }
 @media (min-width: 740px) {
     header{ padding: 0;
-    background-color: #008000;
+    background-color: #800080;
     }
 }
 h1{
@@ -23,18 +23,21 @@ h1{
     margin-top: 0;
     color: #000000;
 }  
+.color-card{
+    background-color: #add8e6;
+    width: 10%;
+}
 h2{
-    color: green;
+    color:red ;
 }
 .domain{
-    background-color: #90ee90;
+    background-color: #add8e6;
     width: 25%;
 }
 footer{
-    background-color: #008000;
+    background-color: #800080;
     padding: 1px;
     color: #ffffff;
-    text-align: center;
-    
+    text-align: center; 
 }
 
