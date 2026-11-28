@@ -22,14 +22,27 @@ h1{
     font-size: 90px;
     margin-top: 0;
     color: #000000;
-}  
+}
+.theme{
+    width: 11%;
+    margin: 0;
+    
+} 
+.theme div{
+    padding: 40px;
+} 
+p{
+    color: #000;
+}
 .colo{
-    background-color: brown;
-    width: 10%;
+    background-color: brown ;
+    width: 14%;
 }
 .color-card{
     background-color: #add8e6;
     width: 10%;
+    padding: 10px;
+    margin-top: -6px;
 }
 h2{
     color:red ;
